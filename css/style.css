@@ -27,20 +27,30 @@ header{
   margin-top: 200px;
   font-family: 'Staatliches';
   font-weight:bold;
-  color: black;
+  color: #282828;
   font-size: 65px;
   text-align: center;
 
+
 }
+
+
 
 h1{
   font-family: 'roboto condensed';
   font-style: bold;
   font-size: 30px;
-  text-align: center;
-  margin-top: 100px;
-}
+  
+  margin-top: -92px;
 
+}
+a {
+margin-top:800px;
+margin-left: 20px;
+font-size: 20px;
+font-style: normal;
+color: #282828;
+}
 
 h2{
   font-family: 'Staatliches';
