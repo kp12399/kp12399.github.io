@@ -10,10 +10,21 @@ body{
 
 }
 
+.scrolldown img {
 
+    width: 100px;
+    margin-top: 40px;
+}
 
 img {
-  width: 1000px;
+  width:300px;
+}
+
+@media screen and (min-width:450px){
+  img{
+    width:750px;
+  }
+}
 
 }
 
