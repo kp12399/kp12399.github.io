@@ -14,7 +14,27 @@ body{
 
     width: 100px;
     margin-top: 40px;
+    cursor: pointer;
 }
+
+.hover img {
+
+    width: 100px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+
+
+.scrolldown img:hover {
+content: url('file:///Users/kiranpatel/Desktop/kp12399.github.io/img/chevrondownhover.png');
+}
+
+
+
+
+
+
 
 img {
   width:300px;
@@ -38,6 +58,7 @@ header{
   font-family: 'Staatliches';
   font-weight:bold;
   color: #282828;
+  letter-spacing: 4px;
   font-size: 65px;
   text-align: center;
   padding-bottom: 0px;
