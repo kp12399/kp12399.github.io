@@ -6,7 +6,7 @@
 
 
 img {
-  width:300px;
+  width:100px;
   display: block;
     margin: 0 auto;
 }
@@ -21,7 +21,7 @@ img {
 
 
 body{
-  background-color: #fffaf1;
+  background-color: #ffffff;
 }
 /* KIRAN PATEL */
 header{
@@ -72,4 +72,9 @@ a{
 
 A:hover{
   color: gray;
+}
+
+img.animated-gif{
+  width: 400px;
+  height: auto;
 }
