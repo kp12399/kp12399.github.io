@@ -1,43 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed|Staatliches');
 @import url('https://fonts.googleapis.com/css?family=Righteous');
-body{
-  background-color: #bb8cff;
-  color: black;
-  font-family: 'roboto condensed';
-  font-weight: 500;
-  font-size: 20px;
-  text-align: center;
-
-}
-
-.scrolldown img {
-
-    width: 100px;
-    margin-top: 40px;
-    cursor: pointer;
-}
-
-.hover img {
-
-    width: 100px;
-    margin-top: 40px;
-    cursor: pointer;
-}
-
-
-
-.scrolldown img:hover {
-content: url('file:///Users/kiranpatel/Desktop/kp12399.github.io/img/chevrondownhover.png');
-}
-
-
-
-
-
+@import url('https://fonts.googleapis.com/css?family=Concert+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Didact+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed&display=swap');
 
 
 img {
   width:300px;
+  display: block;
+    margin: 0 auto;
 }
 
 @media screen and (min-width:450px){
@@ -50,46 +21,55 @@ img {
 
 
 main {
-  color:#262626;
+  background-color: white;
 }
 /* KIRAN PATEL */
 header{
-  margin-top: 100px;
-  font-family: 'Staatliches';
-  font-weight:bold;
-  color: #282828;
+
+  font-family: 'Didact Gothic';
+  color: black;
   letter-spacing: 4px;
-  font-size: 65px;
+  font-size: 100px;
   text-align: center;
-  padding-bottom: 0px;
-
-
+  margin-top: 1em;
 }
-
-
 
 h1{
-  font-family: 'roboto condensed';
+  font-family: 'Didact Gothic';
   font-style: bold;
-  font-size: 25px;
-  padding-bottom: 20px;
-}
-a {
-margin-top:200px;
-font-size: 25px;
-color: #282828;
+  font-size: 45px;
+  text-align: center;
+  margin: 0px;
 }
 
 h2{
-  font-family: 'Staatliches';
-  font-size: 135px;
+  font-family: 'Didact Gothic';
+  font-style: bold;
+  font-size: 55px;
   text-align: center;
+  margin: 1.5em;
 }
 
-h3{
-  margin-top: 220px;
-  font-family: 'Staatliches';
-  font-size: 55px;
+.menu {
 
+font-size: 25px;
+color: black;
+font-family: 'Barlow Semi Condensed';
+text-decoration: none;
+text-align: center;
+margin-top: 3em;
+}
 
+a{
+  font-size: 25px;
+  color: black;
+  font-family: 'Barlow Semi Condensed';
+  text-decoration: none;
+  text-align: center;
+  margin-left: 4em;
+  margin-right: 4em;
+}
+
+A:hover{
+  color: gray;
 }
