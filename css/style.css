@@ -27,7 +27,7 @@ body{
 header{
 
   font-family: 'Didact Gothic';
-  color: black;
+  color: #263641;
   letter-spacing: 4px;
   font-size: 100px;
   text-align: center;
@@ -35,6 +35,7 @@ header{
 }
 
 h1{
+  color: #263641;
   font-family: 'Didact Gothic';
   font-style: bold;
   font-size: 45px;
@@ -43,6 +44,7 @@ h1{
 }
 
 h2{
+  color: #263641;
   font-family: 'Didact Gothic';
   font-style: bold;
   font-size: 55px;
@@ -53,7 +55,7 @@ h2{
 .menu {
 
 font-size: 25px;
-color: black;
+color: #263641;
 font-family: 'Barlow Semi Condensed';
 text-decoration: none;
 text-align: center;
@@ -62,7 +64,7 @@ margin-top: 3em;
 
 a{
   font-size: 25px;
-  color: black;
+  color: #263641;
   font-family: 'Barlow Semi Condensed';
   text-decoration: none;
   text-align: center;
@@ -71,7 +73,7 @@ a{
 }
 
 A:hover{
-  color: gray;
+  color: #CDCDCD;
 }
 
 img.animated-gif{
