@@ -13,7 +13,7 @@ img {
 
 @media screen and (min-width:450px){
   img{
-    width:750px;
+    width:60%;
   }
 }
 
@@ -47,7 +47,7 @@ h2{
   color: #263641;
   font-family: 'Didact Gothic';
   font-style: bold;
-  font-size: 55px;
+  font-size: 5vw;
   text-align: center;
   margin: 1.5em;
 }
@@ -78,5 +78,5 @@ A:hover{
 
 img.animated-gif{
   width: 400px;
-  height: auto;
+  
 }
