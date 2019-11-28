@@ -6,16 +6,12 @@
 
 
 img {
-  width:100px;
+  width:20%;
   display: block;
     margin: 0 auto;
 }
 
-@media screen and (min-width:450px){
-  img{
-    width:60%;
-  }
-}
+
 
 
 
@@ -76,7 +72,4 @@ A:hover{
   color: #CDCDCD;
 }
 
-img.animated-gif{
-  width: 400px;
-  
-}
+
