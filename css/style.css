@@ -6,10 +6,10 @@
 
 
 img {
-  width:80%;
+  width:60%;
   display: block;
     margin: 0 auto;
-    max-width: 100%;
+    max-width: 45%;
 }
 
 @media screen and (min-width:450px){
@@ -48,7 +48,7 @@ h2{
   color: #263641;
   font-family: 'Didact Gothic';
   font-style: bold;
-  font-size: 5vw;
+  font-size: 4vw;
   text-align: center;
   margin: 1.5em;
 }
@@ -78,6 +78,6 @@ A:hover{
 }
 
 img.animated-gif{
-  width: 400px;
+  width: 60%;
   
 }
