@@ -62,6 +62,12 @@
     text-decoration: none;
 }
 
+.blackline {
+    display: inline-block;
+    color: #000;
+    text-decoration: none;
+}
+
 .menu::after {
     content: '';
     display: block;
@@ -75,6 +81,21 @@
     width: 100%;
     transition: width .3s;
 }
+
+.blackline::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 1px;
+    background: black;
+    transition: width .3s;
+}
+
+.blackline:hover::after {
+    width: 100%;
+    transition: width .3s;
+}
+
 
 .showcase{
   padding-left: 65px;
@@ -98,7 +119,7 @@
         <div class="col-md-12 name">
           <div>Kiran Patel</div>
           <div style="font-weight: 300; font-size: 20px;">UX/UI Designer</div>
-          <div class = "info" style="font-size: 35px; "><a class="menu" target ="_blank" href="assets/Kiran_Resume.pdf" style=" border-bottom: 1px solid #ababab; text-decoration: none; font-weight: 300; color: black; margin-left: 1em; margin-right: 1em;">Resume</a><a  class="menu" style=" border-bottom: 1px solid #ababab; text-decoration: none; font-weight: 300; color: black; margin-left: 1em; margin-right: 1em;" href="mailto:kiranpatel.design@gmail.com">Email</a><a style=" border-bottom: 1px solid #ababab; text-decoration: none; font-weight: 300; color: black; margin-left: 1em; margin-right: 1em;" class="menu" target="_blank" href="https://www.linkedin.com/in/kiranpatel6/">LinkedIn</a></div>
+          <div class = "info" style="font-size: 35px; "><a class="blackline" target ="_blank" href="assets/Kiran_Resume.pdf" style=" border-bottom: 1px solid #ababab; text-decoration: none; font-weight: 300; color: black; margin-left: 1em; margin-right: 1em;">Resume</a><a  class="blackline" style=" border-bottom: 1px solid #ababab; text-decoration: none; font-weight: 300; color: black; margin-left: 1em; margin-right: 1em;" href="mailto:kiranpatel.design@gmail.com">Email</a><a style=" border-bottom: 1px solid #ababab; text-decoration: none; font-weight: 300; color: black; margin-left: 1em; margin-right: 1em;" class="blackline" target="_blank" href="https://www.linkedin.com/in/kiranpatel6/">LinkedIn</a></div>
         </div>
       </div>
 
@@ -179,7 +200,7 @@
       <div class="row" style="height: 100px;  margin-top: 0; background-color: white;">
         <div class="col-md-12 name" style="margin-bottom: 30px;">
           
-          <div style="font-weight: 300; font-size: 15px;">Feel free to check out my code for this site on <a class="menu" href="https://github.com/kp12399" target="_blank" style="border-bottom: 1px solid #ababab; text-decoration: none; font-weight:300; font-size: 15px; color: black;">Github</a> </div>
+          <div style="font-weight: 300; font-size: 15px;">Feel free to check out my code for this site on <a class="blackline" href="https://github.com/kp12399" target="_blank" style="border-bottom: 1px solid #ababab; text-decoration: none; font-weight:300; font-size: 15px; color: black;">Github</a> </div>
         
         </div>
       </div>
